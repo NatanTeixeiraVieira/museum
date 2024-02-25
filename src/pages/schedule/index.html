@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendar visita</title>
+    <link rel="stylesheet" href="../../styles/global-styles.css" />
+    <link rel="stylesheet" href="../../styles/header-styles.css" />
+    <link rel="stylesheet" href="../../styles/footer-styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="schedule">
+    <header class="header">
+      <h1 class="museum-name"><a href="../home/index.html">Old News</a></h1>
+      <nav class="navigation">
+        <ul>
+          <li><a href="../home/index.html">Início</a></li>
+          <li><a href="index.html">Agendar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="content">
+        <section>
+          <h1 class="title">Agende uma visita</h1>
+          <form class="form">
+            <div class="fields">
+              <label for="name-surname">Nome e sobrenome</label>
+              <input type="text" id="name-surname" class="input" required />
+            </div>
+            <div class="fields">
+              <label for="email">email</label>
+              <input
+                type="email"
+                id="email"
+                class="input"
+                required
+                placeholder="seuemail@dominio.com"
+              />
+            </div>
+            <div class="fields">
+              <label for="phone">Telefone</label>
+              <input
+                type="tel"
+                id="phone"
+                class="input"
+                placeholder="(XX) XXXXX-XXXX"
+                required
+              />
+            </div>
+
+            <div class="fields">
+              <label for="date">Qual dia gostaria de fazer a visita?</label>
+              <input
+                type="date"
+                id="date"
+                class="input"
+                placeholder="31/01/2024"
+                required
+              />
+            </div>
+
+            <div class="fields">
+              <label for="date">Em qual horário?</label>
+              <input
+                type="time"
+                id="date"
+                class="input"
+                placeholder="10:30"
+                required
+              />
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="news-in-email"
+                class="checkbox"
+                checked
+              />
+              <label class="news-in-email" for="news-in-email">
+                Gostaria de receber nossas novidades por email?
+              </label>
+            </div>
+
+            <button type="submit" class="button-send">Enviar</button>
+          </form>
+        </section>
+
+        <section class="opening-hours">
+          <h2>Horários de funcionamento do museu</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Dia</th>
+                <th>Abre</th>
+                <th>Fecha</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Segunda</td>
+                <td>8:00</td>
+                <td>17:00</td>
+              </tr>
+              <tr>
+                <td>terça</td>
+                <td>8:00</td>
+                <td>17:00</td>
+              </tr>
+              <tr>
+                <td>quarta</td>
+                <td>8:00</td>
+                <td>17:00</td>
+              </tr>
+              <tr>
+                <td>quinta</td>
+                <td>8:00</td>
+                <td>17:00</td>
+              </tr>
+              <tr>
+                <td>sexta</td>
+                <td>8:00</td>
+                <td>17:00</td>
+              </tr>
+              <tr>
+                <td>sabado</td>
+                <td>8:00</td>
+                <td>12:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <hr />
+      <div class="infos">
+        <p class="copyright">&copy; 2024 Old News</p>
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank">
+            <figure>
+              <img
+                src="../../../public/assets/facebook-logo.png"
+                alt="Logo do Instagram"
+                class="logo"
+              />
+            </figure>
+          </a>
+          <a href="https://intagram.com" target="_blank">
+            <figure>
+              <img
+                src="../../../public/assets/instagram-logo.png"
+                alt="Logo do Instagram"
+                class="logo"
+              />
+            </figure>
+          </a>
+          <a href="https://twetter.com" target="_blank">
+            <figure>
+              <img
+                src="../../../public/assets/x-logo.png"
+                alt="Logo do Instagram"
+                class="logo"
+              />
+            </figure>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

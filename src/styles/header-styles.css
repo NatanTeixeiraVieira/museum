@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #272b30;
+  padding: 1.5rem 3rem;
+}
+
+.header .museum-name {
+  color: #fefefe;
+
+  a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+}
+
+.header .navigation ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.header .navigation a {
+  text-decoration: none;
+  color: #fefefe;
+  transition: all ease 0.2s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,60 @@
+.schedule .main {
+  padding: 3rem;
+}
+
+.schedule .main .content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.schedule .main .title {
+  margin-bottom: 2rem;
+}
+
+.schedule .main .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule .main .form .fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  label {
+    margin-bottom: 3px;
+  }
+}
+
+.schedule .main .form .input {
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.schedule .main .form .button-send {
+  padding: 1rem;
+  background-color: #272b30;
+  color: #fefefe;
+  border-radius: 5px;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.schedule .main .opening-hours {
+  margin-top: 3rem;
+}
+
+.schedule .main .opening-hours table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.schedule .main .opening-hours td,
+.schedule .main .opening-hours th {
+  border: 1px solid #000000;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}

@@ -1,0 +1,83 @@
+.home .main .museum-image {
+  width: 100%;
+  background-color: red;
+}
+
+.home .main .about-us {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #272b30;
+  margin: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+  color: #fefefe;
+  height: 20rem;
+}
+
+.home .main .about-us-title-container {
+  width: 100%;
+}
+
+.home .main .about-us h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.home .main .about-us p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.home .main .we-have {
+  margin-top: 5rem;
+}
+
+.home .main .we-have h2,
+.home .main .find-us h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.home .main .we-have .cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25rem);
+  gap: 4rem;
+  justify-content: center;
+  margin: 0 3rem;
+}
+
+.home .main .we-have .card {
+  cursor: pointer;
+}
+
+.home .main .we-have .card-image {
+  width: 100%;
+  height: 14rem;
+}
+
+.home .main .we-have .card-title {
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.home .main .find-us {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .main .find-us h2 {
+  margin-top: 3rem;
+}
+
+.home .main .find-us .address {
+  margin-bottom: 1rem;
+}
+
+.home .main .find-us .map {
+  width: 100%;
+}
