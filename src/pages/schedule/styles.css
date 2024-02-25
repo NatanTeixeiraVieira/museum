@@ -58,3 +58,19 @@
   padding: 0.5rem 1rem;
   text-align: left;
 }
+
+@media (max-width: 1024px) {
+  .schedule .main .content {
+    width: 75%;
+  }
+}
+
+@media (max-width: 760px) {
+  .schedule .main {
+    padding: 3rem 1rem;
+  }
+
+  .schedule .main .content {
+    width: 100%;
+  }
+}
