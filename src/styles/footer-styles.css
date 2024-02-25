@@ -32,3 +32,14 @@
 .footer .social-media .logo {
   width: 2rem;
 }
+
+@media (max-width: 760px) {
+  .footer .infos {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer .social-media .logo {
+    width: 3rem;
+  }
+}

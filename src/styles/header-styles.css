@@ -34,3 +34,9 @@
     opacity: 0.5;
   }
 }
+
+@media (max-width: 760px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+}

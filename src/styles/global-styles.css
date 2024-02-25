@@ -32,3 +32,21 @@ main {
   /* Header height */
   margin-top: 5rem;
 }
+
+@media (max-width: 1020) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 290px) {
+  html {
+    font-size: 10px;
+  }
+}
