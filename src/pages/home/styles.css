@@ -33,6 +33,10 @@
   margin-top: 5rem;
 }
 
+.home .main .we-have li {
+  list-style: none;
+}
+
 .home .main .we-have h2,
 .home .main .find-us h2 {
   font-weight: 700;
